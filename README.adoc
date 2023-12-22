@@ -1,0 +1,12 @@
+= Quarkus: Greener, faster, better, stronger
+
+Readable version available on https://jtama.github.io/quarkus-greener-better-faster-stronger/#/[Github Pages -> ici]
+
+== Generate
+
+[source,bash]
+----
+docker container run --rm -v $(pwd):/documents asciidoctor/docker-asciidoctor:1.58 "asciidoctor-revealjs /documents/index.adoc"
+----
+
+

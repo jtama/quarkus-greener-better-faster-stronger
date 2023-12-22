@@ -1,0 +1,44 @@
+[%notitle.columns.is-vcentered.transparency]
+== Présentation
+
+[.column.is-one-third]
+--
+image::jta.png[]
+--
+
+[.column.is-3.has-text-left.medium]
+--
+Jérôme
+
+Tech Lead, Architecte, Compagnon du devoir
+
+Maintainer de l'extension `quarkus-minio`
+--
+
+[.column]
+--
+[.vertical-align-middle]
+image:logo_onepoint.jpeg[width=50]
+onepoint BDX
+
+[.vertical-align-middle]
+icon:github[] @jtama image:avatar.png[width=100]
+--
+
+=== Génération de l'extension
+
+[.fragment]
+[ditaa]
+....
+extension root
+    ├── pom.xml
+    ├── deployment
+    ├── runtime
+    │   └── src
+    │       └── main
+    │           ├── java
+    │           └── resources
+    │               └── META–INF
+    │                   └── quarkus–extension.yaml
+    ├── integration–tests
+....

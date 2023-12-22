@@ -1,0 +1,28 @@
+[.conclusion.transparency]]
+== !
+
+[.notes]
+--
+Et vous allez me dire, ok greener, faster, better, mais stronger ?
+--
+
+[.fragment.important-text]
+--
+Quarkus c'est le plus fort !
+--
+
+[.transparency]
+=== !
+
+Merci !
+
+[.important-text.has-text-left.vertical-align-middle]
+Le dépôt github :
+image:extension-demo-repo.png[width=200]
+
+
+[.notes]
+--
+J'espère vous avoir éviter quelques pièges, ou en tout vous faciliter le chemine
+Si on a le temps des questions ?
+--
