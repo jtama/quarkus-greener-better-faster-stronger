@@ -12,13 +12,25 @@ Quarkus c'est le plus fort !
 --
 
 [.transparency]
-=== !
+[.columns]
+=== Merci !
 
-Merci !
-
+[.column]
+--
 [.important-text.has-text-left.vertical-align-middle]
 Le dépôt github :
+
 image:extension-demo-repo.png[width=200]
+--
+
+[.column]
+--
+
+[.important-text.has-text-left.vertical-align-middle]
+Feedback :
+
+image:qr-code.png[width=200]
+--
 
 
 [.notes]
