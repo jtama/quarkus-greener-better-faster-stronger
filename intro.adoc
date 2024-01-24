@@ -25,6 +25,10 @@ onepoint BDX
 icon:github[] @jtama image:avatar.png[width=100]
 --
 
+=== !
+
+image::acme.png[background, size=contain]
+
 === Génération de l'extension
 
 [.fragment]
