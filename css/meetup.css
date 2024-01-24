@@ -37,7 +37,7 @@
 }
 
 :root {
-    --r-background-color: #d2caea;
+    --r-background-color: #EEEEEE;
     --r-main-color: #111012;
     --r-main-font: 'Titillium Web';
 }
@@ -94,7 +94,7 @@ img {
 
 
 .reveal .progress {
-    color: #231D32;
+    color: #241F35;
     height: 7px;
 }
 
