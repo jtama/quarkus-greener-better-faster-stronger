@@ -27,7 +27,35 @@ icon:github[] @jtama image:avatar.png[width=100]
 
 === !
 
+image::quarkus-minio.png[background, size=contain]
+
+=== !
+
 image::acme.png[background, size=contain]
+
+=== !
+
+[puml, format=png]
+----
+@startuml
+skinparam handwritten true
+!include <C4/C4_Container>
+
+Boundary(acme, "A.C.M.E.", "A company that makes everythin") {
+    Container(ref, "Central referential", "", "Conferences and their talks data")
+    Container(web, "Web application", "Quarkus", "Random web application")
+    Container(web1, "Web application 1", "Quarkus", "Random web application")
+    Container(web2, "Web application 2", "Quarkus", "Random web application")
+    Container(web3, "Web application 3", "Quarkus", "Random web application")
+    Container(cli, "CLI", "Quarkus", "Random cli application")
+    Rel_D(web, ref, "Uses")
+    Rel_R(web1, ref, "Uses")
+    Rel_L(web2, ref, "Uses")
+    Rel_U(web3, ref, "Uses")
+    Rel_D(cli, ref, "Uses")
+}
+@enduml
+----
 
 === Génération de l'extension
 
