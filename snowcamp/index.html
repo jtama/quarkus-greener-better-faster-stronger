@@ -417,7 +417,24 @@ ul.byline li + li {
 <div class="paragraph"><p>Tech Lead, Architecte, Compagnon du devoir</p></div>
 <div class="paragraph"><p>Maintainer de l&#8217;extension <code>quarkus-minio</code></p></div></div></div><div class="openblock column"><div class="content"><div class="paragraph vertical-align-middle"><p><span class="image"><img src="images/logo_onepoint.jpeg" alt="logo onepoint" width="50"></span>
 onepoint BDX</p></div>
-<div class="paragraph vertical-align-middle"><p><span class="icon"><i class="fa fa-github"></i></span> @jtama <span class="image"><img src="images/avatar.png" alt="avatar" width="100"></span></p></div></div></div></div></section><section data-background-image="images/acme.png" data-background-size="contain"></section><section id="_génération_de_lextension"><h2>Génération de l&#8217;extension</h2><div class="slide-content"><div class="literalblock fragment"><div class="content"><pre>extension root
+<div class="paragraph vertical-align-middle"><p><span class="icon"><i class="fa fa-github"></i></span> @jtama <span class="image"><img src="images/avatar.png" alt="avatar" width="100"></span></p></div></div></div></div></section><section data-background-image="images/quarkus-minio.png" data-background-size="contain"></section><section data-background-image="images/acme.png" data-background-size="contain"></section><section><div class="slide-content"><div class="listingblock"><div class="content"><pre>@startuml
+skinparam handwritten true
+!include &lt;C4/C4_Container&gt;
+
+Boundary(acme, "A.C.M.E.", "A company that makes everythin") {
+    Container(ref, "Central referential", "", "Conferences and their talks data")
+    Container(web, "Web application", "Quarkus", "Random web application")
+    Container(web1, "Web application 1", "Quarkus", "Random web application")
+    Container(web2, "Web application 2", "Quarkus", "Random web application")
+    Container(web3, "Web application 3", "Quarkus", "Random web application")
+    Container(cli, "CLI", "Quarkus", "Random cli application")
+    Rel_D(web, ref, "Uses")
+    Rel_R(web1, ref, "Uses")
+    Rel_L(web2, ref, "Uses")
+    Rel_U(web3, ref, "Uses")
+    Rel_D(cli, ref, "Uses")
+}
+@enduml</pre></div></div></div></section><section id="_génération_de_lextension"><h2>Génération de l&#8217;extension</h2><div class="slide-content"><div class="literalblock fragment"><div class="content"><pre>extension root
     ├── pom.xml
     ├── deployment
     ├── runtime
