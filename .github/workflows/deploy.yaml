@@ -27,7 +27,7 @@ jobs:
           image: asciidoctor/docker-asciidoctor:1.58
           options: -v ${{ github.workspace }}:/documents
           run: |
-            asciidoctor-revealjs /documents/index.adoc
+            asciidoctor-revealjs -r asciidoctor-diagram /documents/index.adoc
 
       - name: Copy build to folder 📦
         run: |

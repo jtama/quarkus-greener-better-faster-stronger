@@ -35,7 +35,7 @@ image::acme.png[background, size=contain]
 
 === !
 
-[puml, format=png]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
