@@ -11,6 +11,10 @@ Et vous allez me dire, ok greener, faster, better, mais stronger ?
 Quarkus c'est le plus fort !
 --
 
+=== !
+
+image::sponsor.png[background, size=contain]
+
 [.transparency]
 [.columns]
 === Merci !

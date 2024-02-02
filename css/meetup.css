@@ -37,13 +37,13 @@
 }
 
 :root {
-    --r-background-color: #d2caea;
+    --r-background-color: #EEEEEE;
     --r-main-color: #111012;
     --r-main-font: 'Titillium Web';
 }
 
 body::after {
-    content: url("../images/snowcamp_logo.png");
+    content: url("../images/tnt_logo.svg");
     position: fixed;
     left: 0;
     bottom: 0;
@@ -94,7 +94,7 @@ img {
 
 
 .reveal .progress {
-    color: #231D32;
+    color: #54B49C;
     height: 7px;
 }
 
