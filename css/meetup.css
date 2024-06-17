@@ -43,10 +43,10 @@
 }
 
 body::after {
-    content: url("../images/tnt_logo.svg");
+    content: url("../images/logo_event.svg");
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: -150px;
+    bottom: -20px;
     transform: scale(.5);
 }
 
@@ -94,7 +94,7 @@ img {
 
 
 .reveal .progress {
-    color: #54B49C;
+    color: #1BC1E4;
     height: 7px;
 }
 
