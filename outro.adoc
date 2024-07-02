@@ -20,7 +20,7 @@ Quarkus c'est le plus fort !
 [.important-text.has-text-left.vertical-align-middle]
 Le dépôt github :
 
-image:extension-demo-repo.png[width=200]
+image:extension-demo-repo.png[width=400]
 --
 
 [.column]
@@ -29,7 +29,7 @@ image:extension-demo-repo.png[width=200]
 [.important-text.has-text-left.vertical-align-middle]
 Feedback :
 
-image:qr-code.png[width=200]
+image:qrcode.png[width=400]
 --
 
 
